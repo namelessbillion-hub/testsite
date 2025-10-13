@@ -1,0 +1,64 @@
+/* Modern minimal CSS for portfolio */
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  background: #f6f8fa;
+  color: #222;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 2rem 1rem 1rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #1363df;
+  margin-top: 0;
+  font-weight: 600;
+  border-bottom: 2px solid #f6f8fa;
+  padding-bottom: 0.25em;
+}
+
+address {
+  font-style: normal;
+  color: #444;
+  line-height: 1.6;
+}
+
+a {
+  color: #1363df;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #888;
+  font-size: 0.95rem;
+}
