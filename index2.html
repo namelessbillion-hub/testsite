@@ -33,7 +33,11 @@ splide.mount();
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script>
 			document.addEventListener( 'DOMContentLoaded', function() {
-				var splide = new Splide( '.splide' );
+				var splide = new Splide( '.splide', {
+				direction: 'ttb',
+				height   : '10rem',
+				wheel    : true,
+				} );
 				splide.mount();
 			} );
 		</script>
