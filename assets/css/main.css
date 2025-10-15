@@ -3783,3 +3783,18 @@ input, select, textarea {
 			}
 
 		}
+
+.container {
+  display: flex; /* Enables Flexbox layout for the container */
+  width: 100%; /* Ensures the container takes full available width */
+}
+
+.left-div {
+  flex: 0 0 40%; /* Sets the flex-basis to 40% of the container's width */
+  /* Additional styling for the left div */
+}
+
+.right-div {
+  flex: 0 0 60%; /* Sets the flex-basis to 60% of the container's width */
+  /* Additional styling for the right div */
+}
