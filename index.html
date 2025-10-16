@@ -15,14 +15,7 @@
     <title>Kerry coin on BNB</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <script type="text/javascript">
-        document.getElementById('copyBtn').addEventListener('click', () => {
-    const text = 'QzJZwKSz...bonk';
-    navigator.clipboard.writeText(text);
-    alert('Contract address copied!');
-});
-
-  </script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </head>
 <body>
   <div class="container">
@@ -37,7 +30,7 @@
         <p>CONTRACT ADDRESS</p>
         <div class="address">
           <p id ="contract-text">QzJZwKSz...bonk</p>
-          <button id="copy-btn">📋</button>
+          <button onclick="copyCA()" id="copy-btn">📋</button>
         </div>
 		<p id="copy-message" class="hidden">Copied!</p>
       </div>
