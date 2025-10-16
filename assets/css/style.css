@@ -70,7 +70,10 @@ body {
     gap: 0.5rem;
     margin-top: 1.2rem;
   }
-
+  #copy-btn  {
+    background:transparent;
+    border:none
+  }
   #copy-btn img {
     width: 24px;
     height: 24px;
