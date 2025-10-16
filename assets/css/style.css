@@ -29,9 +29,14 @@ body {
   justify-content: center;
   padding: 20px;
 }
- button#copy-btn  {
+button#copy-btn  {
     background:transparent;
     border:none;
+  }
+
+button#copy-btn img {
+    width: 24px;
+    height: 24px;
   }
 @media (min-width: 769px) {
   .right-panel {
@@ -75,10 +80,7 @@ body {
     margin-top: 1.2rem;
   }
 
-  #copy-btn img {
-    width: 24px;
-    height: 24px;
-  }
+
 
   .logo {
     font-size: 2rem;
