@@ -160,28 +160,3 @@ nav a:hover::after {
 button {
   font-family: 'Montserrat', sans-serif;
 }
-
-
-#copy-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-#copy-btn:hover {
-  transform: scale(1.1);
-}
-
-#copy-message {
-  text-align: center;
-  color: #00ffae;
-  font-size: 0.9rem;
-  margin-top: 8px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-#copy-message.show {
-  opacity: 1;
-}
