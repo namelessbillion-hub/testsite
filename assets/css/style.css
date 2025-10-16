@@ -30,6 +30,66 @@ body {
   padding: 20px;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-panel {
+    width: 100%;
+    padding: 1.5rem;
+    order: 1;
+    text-align: center;
+  }
+
+  .right-panel {
+    width: 100%;
+    height: auto;
+    order: 2;
+    max-height: 70vh;
+    overflow-y: scroll;
+  }
+
+  .left-panel nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .address {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+  }
+
+  #copy-btn img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .logo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .left-panel nav a {
+    font-size: 0.9rem;
+  }
+
+
+  .address p {
+    font-size: 0.8rem;
+    word-break: break-all;
+  }
+}
+
+
+
 nav {
     align-items: center;
     gap: 10px;
