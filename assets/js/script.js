@@ -1,5 +1,5 @@
 function copyCA() {
-  const textToCopy = document.getElementById("contract-text-full").innerText;
+  const textToCopy = document.getElementById("contract-text-full").value;
   navigator.clipboard.writeText(textToCopy)
     .then(() => {
         document.getElementById('copy-message').style.visibility = 'visible'; 
