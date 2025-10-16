@@ -102,4 +102,9 @@ nav {
   height: 100vh;
   object-fit: cover;
   scroll-snap-align: start;
+  transition: transform 0.6s ease; /* smooth zoom */
+}
+
+.carousel img:hover {
+  transform: scale(1.1); /* 10% zoom effect */
 }
