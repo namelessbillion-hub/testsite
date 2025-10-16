@@ -29,7 +29,14 @@ body {
   justify-content: center;
   padding: 20px;
 }
-
+@media (min-width: 769px) {
+  .right-panel {
+    width: 70%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+}
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .container {
@@ -188,12 +195,7 @@ nav a:hover::after {
   color: #0d0703;
 }
 
-.right-panel {
-  width: 70%;
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
+
 
 .carousel {
   display: flex;
