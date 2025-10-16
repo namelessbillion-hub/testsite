@@ -108,3 +108,17 @@ nav {
 .carousel img:hover {
   transform: scale(1.1); /* 10% zoom effect */
 }
+
+.img-frame {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+/* fade gradient between slides */
+.fade-separator {
+  height: 120px; /* adjust intensity */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent 40%, transparent 60%, rgba(0, 0, 0, 0.6));
+}
