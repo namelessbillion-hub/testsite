@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUB Clone</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script type="text/javascript">
+    document.getElementById('copyBtn').addEventListener('click', () => {
+  const text = 'QzJZwKSz...bonk';
+  navigator.clipboard.writeText(text);
+  alert('Contract address copied!');
+});
+
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <nav>
+        <span>X</span>
+        <span>COMMUNITY</span>
+        <span>DEX</span>
+      </nav>
+      <h1 class="logo">MUB</h1>
+      <div class="contract-box">
+        <p>CONTRACT ADDRESS</p>
+        <div class="address">
+          <span>QzJZwKSz...bonk</span>
+          <button id="copyBtn">📋</button>
+        </div>
+      </div>
+      <button class="buy-btn">BUY $MUB</button>
+    </div>
+
+    <div class="right-panel">
+      <div class="carousel">
+        <img src="images/sample1.jpg" alt="Sample 1">
+        <img src="images/sample2.jpg" alt="Sample 2">
+        <img src="images/sample3.jpg" alt="Sample 3">
+        <img src="images/sample4.jpg" alt="Sample 4">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
