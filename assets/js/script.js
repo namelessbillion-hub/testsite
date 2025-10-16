@@ -1,5 +1,5 @@
 function copyCA() {
-  const textToCopy = document.getElementById("contract-text").value;
+  const textToCopy = document.getElementById("contract-text").innerText;
   navigator.clipboard.writeText(textToCopy)
     .then(() => {
       alert("Text copied to clipboard!");
