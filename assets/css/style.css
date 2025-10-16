@@ -19,7 +19,7 @@ body {
 
 .left-panel {
   width: 30%;
-  background-color: #0d0703;
+  background-color: #7d3402;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +28,6 @@ body {
 }
 
 nav {
-  position: absolute;
   top: 40px;
   left: 40px;
   right: 40px;
