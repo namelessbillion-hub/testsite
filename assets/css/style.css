@@ -174,7 +174,7 @@ nav a:hover::after {
   border-radius: 8px;
 }
 .hidden{
-  display: hidden;
+  visibility: hidden;
 }
 
 .buy-btn {

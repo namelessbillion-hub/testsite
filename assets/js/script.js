@@ -1,13 +1,10 @@
-
-document.getElementById("copy-btn").addEventListener("click", function() {
-  const text = document.getElementById("contract-text").innerText;
-  navigator.clipboard.writeText(text).then(() => {
-    const msg = document.getElementById("copy-message");
-    msg.classList.add("show");
-    msg.textContent = "Copied!";
-    setTimeout(() => {
-      msg.classList.remove("show");
-    }, 1500);
-  });
-});
-
+function copyCA() {
+  const textToCopy = document.getElementById("contract-text").value;
+  navigator.clipboard.writeText(textToCopy)
+    .then(() => {
+      alert("Text copied to clipboard!");
+    })
+    .catch(err => {
+      console.error("Failed to copy text: ", err);
+    });
+}
