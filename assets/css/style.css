@@ -81,7 +81,13 @@ body {
     font-size: 0.9rem;
   }
 
-
+  .right-panel {
+    width: 100%;
+    height: auto;
+    order: 2;
+    max-height: 70vh;
+    overflow-y: scroll;
+  }
   .address p {
     font-size: 0.8rem;
     word-break: break-all;
