@@ -29,6 +29,10 @@ body {
   justify-content: center;
   padding: 20px;
 }
+ button#copy-btn  {
+    background:transparent;
+    border:none;
+  }
 @media (min-width: 769px) {
   .right-panel {
     width: 70%;
@@ -70,10 +74,7 @@ body {
     gap: 0.5rem;
     margin-top: 1.2rem;
   }
-  button#copy-btn  {
-    background:transparent;
-    border:none;
-  }
+
   #copy-btn img {
     width: 24px;
     height: 24px;
