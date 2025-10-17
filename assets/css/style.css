@@ -52,6 +52,9 @@ button#copy-btn img {
     flex-direction: column;
   }
 
+  #hamburger-menu{
+    display:block;
+  }
   .left-panel {
     display:none;
   }
