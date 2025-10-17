@@ -16,9 +16,9 @@ function copyCABurger() {
   const textToCopy = document.getElementById("contract-text-burger").innerText;
   navigator.clipboard.writeText(textToCopy)
     .then(() => {
-        document.getElementById('copy-message-burger').style.visibility = 'visible'; 
+        document.getElementById('copy-message-burger').style.display = 'block'; 
         setTimeout(function() {
-            document.getElementById('copy-message-burger').style.visibility = 'hidden'; 
+            document.getElementById('copy-message-burger').style.display = 'none'; 
         }, 1500);
     })
     .catch(err => {

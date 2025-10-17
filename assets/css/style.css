@@ -193,6 +193,9 @@ nav a:hover::after {
   width: 100%;
 }
 
+.display-none{
+  display:none;
+}
 .logo {
   font-size: 60px;
   font-weight: 900;
