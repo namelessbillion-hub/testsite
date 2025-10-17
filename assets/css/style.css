@@ -59,7 +59,7 @@ button#copy-btn img {
     scroll-snap-align: start;
     position: relative;
   }
-  
+
   .carousel img {
     width: 100%;
     height: 100vh;
@@ -70,6 +70,10 @@ button#copy-btn img {
 }
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  #socials-icons img{
+    height:40px;
+    width:40px;
+  }
   .img-frame {
     width: 100%;
     overflow: hidden;
