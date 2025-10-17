@@ -248,6 +248,7 @@ p#contract-text{
 .buy-btn:hover {
   background-color: #fff;
   color: #0d0703;
+  box-shadow: 8px 8px 8px 8px rgba(0.6, 0.6, 0.6, 0.6);
 }
 
 
