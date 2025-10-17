@@ -75,27 +75,11 @@ button#copy-btn img {
   }
 
   .address {
+    flex-direction: column;
     gap: 0.5rem;
     margin-top: 1.2rem;
   }
-.address {
-  display: flex;
-  flex-wrap: nowrap; /* Prevent wrapping */
-  justify-content: center; /* Optional: center horizontally */
-  align-items: center; /* Optional: align vertically */
-  gap: 1rem; /* Space between items */
-  overflow-x: auto; /* Allow scroll if screen too small */
-}
 
-.card {
-  background-color: #7b3f00;
-  border-radius: 12px;
-  padding: 16px;
-  text-align: center;
-  width: 180px; /* Fixed width to keep consistent size */
-  color: #f2d2b0;
-  flex-shrink: 0; /* Prevent shrinking */
-}
 
 
   .logo {
