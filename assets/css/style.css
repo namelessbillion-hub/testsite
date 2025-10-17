@@ -101,7 +101,7 @@ button#copy-btn img {
     width: 100%;
     height: auto;
     order: 2;
-    max-height: 70vh;
+    height: 100vh;
     overflow-y: scroll;
   }
   .address p {
@@ -109,8 +109,6 @@ button#copy-btn img {
     word-break: break-all;
   }
 }
-
-
 
 nav {
     align-items: center;

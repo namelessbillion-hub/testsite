@@ -40,74 +40,42 @@
 
 
     <nav id='hamburger-menu'>
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" id="menuCheckbox" />
-    
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-    <ul id="menu">
-      <!-- 
-      We can use a label here to close upon click (when doing same page navigation), this
-      does require a slight bit of JS.
-      -->
-      <li>
-        <a href="#">
-          <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
-        </a>
-      </li>
-      <li>
-        <a href="#about">
-          <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
-        </a>
-      </li>
-      
-      <!-- These just close the menu -->
-      <li><label for="menuCheckbox"><a>Info</a></label></li>
-      <li><label for="menuCheckbox"><a>Contact</a></label></li>
-      
-      <!-- Or just use regular URLs -->
-      <li>
-        <a href="https://erikterwan.com/" target="_blank">Show me more</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-    <!-- <div class="left-panel-mobile">
-      <div>
-        <nav>
-          <span><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/">X</a></span>
-          <span><a target="_blank" rel="noopener noreferrer" href="https://www.wikipedia.org/">COMMUNITY</a></span>
-          <span><a target="_blank" rel="noopener noreferrer" href="https://dexscreener.com/">DEX</a></span>
-        </nav>
+      <div id="menuToggle">
+
+        <input type="checkbox" id="menuCheckbox" />
+        
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <!-- 
+          We can use a label here to close upon click (when doing same page navigation), this
+          does require a slight bit of JS.
+          -->
+          <li>
+            <a href="#">
+              <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+            </a>
+          </li>
+          <li>
+            <a href="#about">
+              <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+            </a>
+          </li>
+          
+          <!-- These just close the menu -->
+          <li><label for="menuCheckbox"><a>Info</a></label></li>
+          <li><label for="menuCheckbox"><a>Contact</a></label></li>
+          
+          <!-- Or just use regular URLs -->
+          <li>
+            <a href="https://erikterwan.com/" target="_blank">Show me more</a>
+          </li>
+        </ul>
       </div>
-      <h1 class="logo">Kerry</h1>
-      <div class="contract-box">
-        <p>CONTRACT ADDRESS</p>
-        <div class="address">
-          <p id ="contract-text">TBD</p>
-          <p id="contract-text-full" style="display:none;">QzJZwKSzsdasdsa12321BONK</p>
-          <button onclick="copyCA()" id="copy-btn"><img src="images/icons/copy.png"></button>
-        </div>
-		    <p id="copy-message" class="hidden">Copied!</p>
-      </div>
-      <button class="buy-btn">BUY $KERRY</button>
-    </div> -->
+    </nav>
+  <!-- end of left panel -->
 
     <div class="right-panel">
       <div class="carousel">
