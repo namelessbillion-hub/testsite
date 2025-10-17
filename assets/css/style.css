@@ -71,8 +71,8 @@ button#copy-btn img {
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .socials-icons img{
-    height:40px;
-    width:40px;
+    height: 25px;
+    width:25px;
   }
   .socials-icons h1{
     color:black;
