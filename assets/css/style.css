@@ -210,6 +210,10 @@ nav a:hover::after {
   opacity: 0.7;
 }
 
+#contract-text p{
+  font-size:9px;
+}
+
 .address {
   display: flex;
   align-items: center;
