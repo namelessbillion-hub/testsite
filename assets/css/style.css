@@ -200,6 +200,7 @@ nav a:hover::after {
   font-size: 60px;
   font-weight: 900;
   margin-bottom: 40px;
+  padding-top:30px;
 }
 
 .contract-box {
