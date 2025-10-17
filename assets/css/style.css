@@ -38,6 +38,8 @@ button#copy-btn img {
     width: 24px;
     height: 24px;
   }
+
+  /* PC/Screen view */
 @media (min-width: 769px) {
   .right-panel {
     width: 70%;
@@ -45,15 +47,16 @@ button#copy-btn img {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
   }
+
+  #hamburger-menu{
+    display:none;
+  }
+
 }
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-  }
-
-  #hamburger-menu{
-    display:block;
   }
   .left-panel {
     display:none;
