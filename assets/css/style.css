@@ -267,6 +267,10 @@ button {
 
 
 /* hamburger menu for mobile */
+
+nav#hamburger-menu{
+  width:100%;
+}
 #menuToggle
 {
   display: block;
