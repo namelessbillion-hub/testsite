@@ -421,6 +421,10 @@ button {
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
