@@ -66,7 +66,7 @@ button#copy-btn img {
     width: 100%;
     height: auto;
     order: 2;
-    max-height: 70vh;
+    max-height: 100vh;
     overflow-y: scroll;
   }
 
