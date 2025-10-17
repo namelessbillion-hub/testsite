@@ -70,7 +70,7 @@ button#copy-btn img {
 }
 /* Mobile responsiveness */
 @media (max-width: 768px) {
-  #socials-icons img{
+  .socials-icons img{
     height:40px;
     width:40px;
   }
@@ -417,7 +417,7 @@ button {
 
 #menu li
 {
-  padding: 10px 0;
+  padding: 20px 0;
   font-size: 22px;
 }
 
