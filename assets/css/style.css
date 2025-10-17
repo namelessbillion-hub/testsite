@@ -243,13 +243,13 @@ nav a:hover::after {
 /* Top gradient */
 .img-frame::before {
   top: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
 }
 
 /* Bottom gradient */
 .img-frame::after {
   bottom: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
 }
 
 button {
