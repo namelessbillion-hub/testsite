@@ -13,7 +13,7 @@ function copyCA() {
 }
 
 function copyCABurger() {
-  const textToCopy = document.getElementById("contract-text-full-burger").innerText;
+  const textToCopy = document.getElementById("contract-text-burger").innerText;
   navigator.clipboard.writeText(textToCopy)
     .then(() => {
         document.getElementById('copy-message-burger').style.visibility = 'visible'; 
