@@ -74,6 +74,14 @@ button#copy-btn img {
     height:40px;
     width:40px;
   }
+  .socials-icons h1{
+    color:black;
+  }
+  .socials-icons p{
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+  }
   .img-frame {
     width: 100%;
     overflow: hidden;
