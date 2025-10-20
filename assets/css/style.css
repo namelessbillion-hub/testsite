@@ -440,6 +440,11 @@ button {
   font-size: 22px;
 }
 
+#menu li a
+{
+  color: white;
+}
+
 #menu li label
 {
   cursor: pointer;
