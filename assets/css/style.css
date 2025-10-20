@@ -197,6 +197,7 @@ nav a:hover::after {
   display:none;
 }
 .logo {
+  font-family: 'Chewy', cursive;
   font-size: 60px;
   font-weight: 900;
   margin-bottom: 40px;
