@@ -300,6 +300,8 @@ button {
 
 #copy-btn-burger {
   border: none;
+  background: transparent;
+  filter: invert(100%);
 }
 
 /* hamburger menu for mobile */
