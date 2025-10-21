@@ -204,6 +204,9 @@ nav a:hover::after {
 #left-panel-img {
   height:200px;
 }
+#left-panel-img-burger {
+  height:50px;
+}
 .contract-box {
   text-align: center;
   margin-bottom: 20px;
