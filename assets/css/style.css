@@ -205,7 +205,8 @@ nav a:hover::after {
   height:200px;
 }
 #left-panel-img-burger {
-  height:50px;
+    height: 100px;
+    width: auto;
 }
 .contract-box {
   text-align: center;
