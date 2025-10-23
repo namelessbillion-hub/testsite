@@ -190,7 +190,6 @@ nav a:hover {
     background-color: #fff;
     color: black;
     box-shadow: 8px 8px 8px 8px rgba(0.6, 0.6, 0.6, 0.6);
-    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(90%) contrast(90%);
 }
 nav a:hover::after {
   width: 100%;
