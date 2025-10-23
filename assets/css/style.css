@@ -187,8 +187,7 @@ nav a:hover {
 }
 #copy-div:hover{
     cursor: pointer;
-    background-color: #fff;
-    color: black;
+    color: white;
     box-shadow: 8px 8px 8px 8px rgba(0.6, 0.6, 0.6, 0.6);
 }
 nav a:hover::after {
